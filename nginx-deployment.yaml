@@ -4,6 +4,10 @@ metadata:
   name: nginx-deployment
   namespace: gotk-apps
 spec:
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
   selector:
     matchLabels:
       app: nginx
