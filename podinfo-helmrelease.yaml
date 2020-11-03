@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-        namespace: gotk-system
+        namespace: gotk-apps
       interval: 1m
   values:
     replicaCount: 2
