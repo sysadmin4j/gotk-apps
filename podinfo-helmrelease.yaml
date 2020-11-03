@@ -7,7 +7,7 @@ spec:
   interval: 5m
   chart:
     spec:
-      chart: podinfo/podinfo
+      chart: podinfo
       version: '5.0.3'
       sourceRef:
         kind: HelmRepository
